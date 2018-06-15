@@ -8,6 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class ParentComponent implements OnInit {
   childTitle: string = "text passed to child";
 
+  onClick(title: string) {
+    console.log(title);
+  }
+
   constructor() { }
 
   ngOnInit() {

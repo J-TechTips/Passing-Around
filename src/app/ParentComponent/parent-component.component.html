@@ -1,3 +1,3 @@
 <h1>I'm a Container Component</h1>
 
-<child-component [title]='childTitle'></child-component>
+<child-component [title]='childTitle' (notifyParent)='onClick($event)'></child-component>
